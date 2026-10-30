@@ -349,4 +349,4 @@ html{scroll-padding-top:4.5rem}
 .strip-set .r{margin-left:0}.strip-set::after{content:"/";margin-left:0}
 }
 @keyframes marquee{to{transform:translateX(-50%)}}
-@media(max-width:960px) and (prefers-reduced-motion:reduce){.strip{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.strip-track{animation:none}.strip-set:nth-child(2){
+@media(max-width:960px) and (prefers-reduced-motion:reduce){.strip{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.strip-track{animation:none}.strip-set:nth-child(2){display:none}}
